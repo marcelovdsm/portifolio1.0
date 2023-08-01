@@ -6,10 +6,11 @@ export const HeaderNav = styled.nav`
   left: 0;
   width: 100%;
   z-index: 999;
+  height: 5.5rem;
 
   display: flex;
   justify-content: center;
-  padding: 1.5rem;
+  align-items: center;
 
   a {
     text-decoration: none;
@@ -31,6 +32,7 @@ export const HeaderNav = styled.nav`
 
     span {
       color: ${(props) => props.theme.lightBlue};
+      font-size: 1.9rem;
     }
   }
 `
