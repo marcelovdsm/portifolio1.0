@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-export const HeaderNav = styled.nav`
+export const HeaderNav = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
   height: 5.5rem;
 
@@ -31,8 +31,21 @@ export const HeaderNav = styled.nav`
     border-bottom-width: 4px;
 
     span {
-      color: ${(props) => props.theme.lightBlue};
+      color: ${(props) => props.theme.blue};
       font-size: 1.9rem;
     }
+  }
+`
+
+export const MenuBtn = styled.button`
+  background: none;
+  color: ${(props) => props.theme.gray};
+  border: none;
+  position: absolute;
+  left: 2%;
+
+  :hover {
+    color: ${(props) => props.theme.blue};
+    background-color: aliceblue;
   }
 `
