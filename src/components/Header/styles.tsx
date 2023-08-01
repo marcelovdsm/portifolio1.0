@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HeaderNav = styled.div`
+export const HeaderDiv = styled.div`
   position: fixed;
   top: 0;
   left: 0;
@@ -34,18 +34,5 @@ export const HeaderNav = styled.div`
       color: ${(props) => props.theme.blue};
       font-size: 1.9rem;
     }
-  }
-`
-
-export const MenuBtn = styled.button`
-  background: none;
-  color: ${(props) => props.theme.gray};
-  border: none;
-  position: absolute;
-  left: 2%;
-
-  :hover {
-    color: ${(props) => props.theme.blue};
-    background-color: aliceblue;
   }
 `

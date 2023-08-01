@@ -1,17 +1,28 @@
-import { List } from 'phosphor-react'
-import { HeaderNav, MenuBtn } from './styles'
+import { MenuBtn } from '../MenuBtn'
+import { HeaderDiv } from './styles'
 
 export const Header = () => {
   return (
-    <HeaderNav>
-      <MenuBtn>
-        <List size={35} weight="bold" />
-      </MenuBtn>
+    <HeaderDiv>
+      <MenuBtn />
+      <nav>
+        <ul>
+          <li>
+            <a href="/sobre">Sobre</a>
+          </li>
+          <li>
+            <a href="/projetos">Projetos</a>
+          </li>
+          <li>
+            <a href="/contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
       <a href="/">
         <h1>
           <span>M</span>ARCELO <span>V</span>ICTOR
         </h1>
       </a>
-    </HeaderNav>
+    </HeaderDiv>
   )
 }
