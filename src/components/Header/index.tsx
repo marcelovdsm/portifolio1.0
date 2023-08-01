@@ -1,7 +1,13 @@
+import { HeaderNav } from './styles'
+
 export const Header = () => {
   return (
-    <div>
-      <h1>MARCELO VICTOR</h1>
-    </div>
+    <HeaderNav>
+      <a href="/">
+        <h1>
+          <span>M</span>ARCELO <span>V</span>ICTOR
+        </h1>
+      </a>
+    </HeaderNav>
   )
 }
