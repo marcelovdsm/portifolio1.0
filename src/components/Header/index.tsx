@@ -4,9 +4,6 @@ import { HeaderDiv, MenuBtn } from './styles'
 export const Header = () => {
   return (
     <HeaderDiv>
-      <MenuBtn onClick={() => {}}>
-        <List size={35} weight="bold" />
-      </MenuBtn>
       <nav>
         <ul>
           <li>

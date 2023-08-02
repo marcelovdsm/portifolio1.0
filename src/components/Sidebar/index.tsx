@@ -1,14 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Navbar } from './styles'
+import { MenuIconsOpen, Navbar } from './styles'
+import { List } from 'phosphor-react'
 
 const Sidebar: React.FunctionComponent = () => {
   return (
     <>
       <Navbar>
-        <MenuIconOpen to="#">
-          <FaIcons.FaBars />
-        </MenuIconOpen>
+        <MenuIconsOpen to="#">
+          <List size={35} weight="bold" />
+        </MenuIconsOpen>
       </Navbar>
     </>
   )
