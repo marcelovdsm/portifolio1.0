@@ -7,7 +7,7 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <Header />
-
+      <div></div>
       <GlobalStyle />
     </ThemeProvider>
   )
