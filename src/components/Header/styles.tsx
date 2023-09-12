@@ -7,17 +7,19 @@ export const HeaderDiv = styled.div`
   width: 100vw;
   z-index: 999;
   height: 5.5rem;
+  padding: 0 1.5rem;
 
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
+  gap: 45rem;
 
   a {
     text-decoration: none;
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: ${(props) => props.theme.gray};
     border-bottom: solid 2px ${(props) => props.theme.blue};
     transition: 0.2s;
@@ -28,11 +30,10 @@ export const HeaderDiv = styled.div`
   }
 
   h1:hover {
-    border-bottom-width: 4px;
+    border-bottom-width: 3px;
 
     span {
       color: ${(props) => props.theme.blue};
-      font-size: 1.9rem;
     }
   }
 `
