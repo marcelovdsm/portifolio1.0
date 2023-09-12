@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderDiv = styled.div`
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   width: 100vw;
@@ -10,7 +10,6 @@ export const HeaderDiv = styled.div`
   padding: 0 1.5rem;
 
   display: flex;
-  justify-content: baseline;
   align-items: center;
   gap: 45rem;
 
