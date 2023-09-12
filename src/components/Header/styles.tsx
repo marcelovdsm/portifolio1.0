@@ -43,4 +43,18 @@ export const NavComponent = styled.nav`
     display: flex;
     gap: 5rem;
   }
+
+  li {
+    list-style: none;
+
+    a {
+      color: ${(props) => props.theme.gray};
+      transition: 0.2s;
+      font-size: 1.2rem;
+    }
+
+    a:hover {
+      color: ${(props) => props.theme.blue};
+    }
+  }
 `
