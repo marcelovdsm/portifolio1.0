@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const HomepageDiv = styled.div`
   color: ${(props) => props.theme.gray};
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   padding: 1.5rem;
   margin-top: 10rem;
 
