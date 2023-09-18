@@ -6,27 +6,29 @@ import { Homepage } from './components/Homepage'
 import { About } from './components/About'
 import { Projects } from './components/Projects'
 
+import calcjs from './assets/calcjs-picture.jpg'
+import countdown from './assets/countdown-picture.jpg'
+import blogts from './assets/project1ts-picture.jpg'
+
 const projectsList = [
   {
-    img: ,
-    title: ,
+    img: calcjs,
+    title: 'CalcJs',
     description:
-  }
+      'Calculadora feita em Javascript, HTML e CSS puros, um dos meus primeiros projetos.',
+  },
   {
-    img: ,
-    title: ,
+    img: countdown,
+    title: 'CountDown Task Manager',
     description:
-  }
+      'Um gerenciador de tarefas com contagem regressiva, histórico de tarefas e acompanhamento de status de tarefas feito em React, Typescript e StyledComponents',
+  },
   {
-    img: ,
-    title: ,
+    img: blogts,
+    title: 'Blog',
     description:
-  }
-  {
-    img: ,
-    title: ,
-    description:
-  }
+      'Blog feito utililizando react, meu segundo projeto feito utilizando react',
+  },
 ]
 
 function App() {
