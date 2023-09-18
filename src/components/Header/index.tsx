@@ -11,7 +11,7 @@ export const Header = () => {
       <NavComponent>
         <ul>
           <li>
-            <a href="/sobre">Sobre</a>
+            <a href="#about">Sobre</a>
           </li>
           <li>
             <a href="/projetos">Projetos</a>

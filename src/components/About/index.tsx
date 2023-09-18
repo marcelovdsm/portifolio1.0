@@ -7,7 +7,7 @@ export const About = () => {
       <img src={photo} alt="Minha foto de perfil" />
       <AboutText>
         <h2>Sobre mim</h2>
-        <p>
+        <p id="about">
           Sou um estudante de análise e desenvolvimento de sistemas e deselvolvo
           utilizando React, Typescript e Styled Components mas tenho muita
           disposição para aprender novas linguagens e procuro aperfeiçoar cada

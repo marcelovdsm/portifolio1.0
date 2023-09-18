@@ -11,5 +11,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${(props) => props.theme.backgroundBlack};
     color: ${(props) => props.theme.latte};
+    overflow-x: hidden;
   }
 `
