@@ -4,7 +4,30 @@ import { GlobalStyle } from './styles/global'
 import { Header } from './components/Header'
 import { Homepage } from './components/Homepage'
 import { About } from './components/About'
-import { Project } from './components/Project'
+import { Projects } from './components/Projects'
+
+const projectsList = [
+  {
+    img: ,
+    title: ,
+    description:
+  }
+  {
+    img: ,
+    title: ,
+    description:
+  }
+  {
+    img: ,
+    title: ,
+    description:
+  }
+  {
+    img: ,
+    title: ,
+    description:
+  }
+]
 
 function App() {
   return (
@@ -12,7 +35,7 @@ function App() {
       <Header />
       <Homepage />
       <About />
-      <Project />
+      <Projects />
       <GlobalStyle />
     </ThemeProvider>
   )
